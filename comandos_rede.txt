@@ -12,3 +12,20 @@ arp-scan --interface=eth0 -localnet
 
 traceroute g1.com.br
 
+#DOCKER
+
+faz download da ultima versao do sistema
+docker pull debian
+
+docker run -it debian:latest
+
+containers em execução
+docker ps
+
+# Uso: sudo docker run [ID do contêiner]
+sudo docker run c629b7d70666
+
+# Uso: sudo docker stop [ID do contêiner]
+sudo docker stop c629b7d70666
+
+
