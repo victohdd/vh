@@ -29,3 +29,6 @@ sudo docker run c629b7d70666
 sudo docker stop c629b7d70666
 
 
+copiar arquivos:
+cp origem /home/destino
+cd -R /pasta/origem /pasta/destino
