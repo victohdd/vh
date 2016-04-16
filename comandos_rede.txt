@@ -1,0 +1,14 @@
+Comandos linux para uso em rede:
+
+descobrir portas abertas
+nmap 192.168.0.0/24
+nmap 192.168.0.1
+
+mostrar ip externo:
+curl ifconfig.me
+
+descobrir hosts disponíveis na mesma rede
+arp-scan --interface=eth0 -localnet
+
+traceroute g1.com.br
+
