@@ -32,3 +32,21 @@ sudo docker stop c629b7d70666
 copiar arquivos:
 cp origem /home/destino
 cd -R /pasta/origem /pasta/destino
+
+usando o GIT
+importar o git para uma pasta:
+git clone https://github.com/victohdd/vh.git
+
+criar arquivos e/ou modificá-los, após, add files e folders
+git add .
+git add *
+
+fazer um commit
+git commit -m "comentario"
+
+fazer upload dos arquivos:
+git push
+git push -u origin master
+
+
+
