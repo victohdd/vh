@@ -48,5 +48,7 @@ fazer upload dos arquivos:
 git push
 git push -u origin master
 
-
+#Instalando arquivos .bin
+1) dar permissão de execução sudo chmod +x nodo_do_arquivo.bin
+2) executar ./nome_do_arquivo.bin
 
