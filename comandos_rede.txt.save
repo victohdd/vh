@@ -1,0 +1,52 @@
+qComandos linux para uso em rede:
+
+descobrir portas abertas
+nmap 192.168.0.0/24
+nmap 192.168.0.1
+
+mostrar ip externo:
+curl ifconfig.me
+
+descobrir hosts disponíveis na mesma rede
+arp-scan --interface=eth0 -localnet
+
+traceroute g1.com.br
+
+#DOCKER
+
+faz download da ultima versao do sistema
+docker pull debian
+
+docker run -it debian:latest
+
+containers em execução
+docker ps
+
+# Uso: sudo docker run [ID do contêiner]
+sudo docker run c629b7d70666
+
+# Uso: sudo docker stop [ID do contêiner]
+sudo docker stop c629b7d70666
+
+
+copiar arquivos:
+cp origem /home/destino
+cd -R /pasta/origem /pasta/destino
+
+usando o GIT
+importar o git para uma pasta:
+git clone https://github.com/victohdd/vh.git
+
+criar arquivos e/ou modificá-los, após, add files e folders
+git add .
+git add *
+
+fazer um commit
+git commit -m "comentario"
+
+fazer upload dos arquivos:
+git push
+git push -u origin master
+
+
+
