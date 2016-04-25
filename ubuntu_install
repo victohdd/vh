@@ -1,0 +1,31 @@
+Comandos para primeiras instalações do Ubuntu 16.04
+
+1)Add Users SUDOERs
+sudo adduser nome_usuario sudo
+1.1) Deletar User
+sudo deluser nome_usuario
+1.2) Ver usuários com permissão SUDO:
+sudo visudo
+
+2)Change default bash do novo usuário
+sudo chsh -s /bin/bash <username>
+
+3)Create home folder
+sudo mkhomedir_helper nome_usuario
+3.1)Remove-home
+sudo deluser --remove-home nome_usuario
+
+4)Mudar Hostname
+Alterar os seguintes arquivos com o novo hostname
+sudo nano /etc/hostname
+sudo nano /etc/hosts
+
+
+Instalar HTOP,
+
+
+Referências
+1) https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
+2) http://askubuntu.com/questions/7477/how-can-i-add-a-new-user-as-sudoer-using-the-command-line
+3)http://askubuntu.com/questions/325807/arrow-keys-tab-complete-not-working
+
