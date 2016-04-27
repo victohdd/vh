@@ -54,3 +54,11 @@ git push -u origin master
 
 #Listar Hardware Instalado
 lshw -short
+
+
+
+
+
+-----------
+Referências
+1) http://rogerdudler.github.io/git-guide/index.pt_BR.html
