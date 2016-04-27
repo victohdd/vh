@@ -52,3 +52,5 @@ git push -u origin master
 1) dar permissão de execução sudo chmod +x nodo_do_arquivo.bin
 2) executar ./nome_do_arquivo.bin
 
+#Listar Hardware Instalado
+lshw -short
