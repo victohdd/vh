@@ -15,10 +15,26 @@ sudo mkhomedir_helper nome_usuario
 3.1)Remove-home
 sudo deluser --remove-home nome_usuario
 
+4)configurar IP
+
+sudo nano /etc/network/interfaces
+#iface ens160 inet dhcp
+iface ens160 inet static
+        address aaa.bbb.ccc.ddd
+        netmask 255.255.255.0
+        gateway aaa.bbb.ccc.1
+        dns-nameservers 8.8.8.8 8.8.4.4
+#Secondary network
+auto ens192
+iface ens192 inet dhcp
+
+
 4)Mudar Hostname
 Alterar os seguintes arquivos com o novo hostname
 sudo nano /etc/hostname
 sudo nano /etc/hosts
+
+
 
 5) Instalar aplicativos:
 htop
