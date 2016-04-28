@@ -20,12 +20,17 @@ Alterar os seguintes arquivos com o novo hostname
 sudo nano /etc/hostname
 sudo nano /etc/hosts
 
-
-Instalar HTOP,
+5) Instalar aplicativos:
+htop
+traceroute
+arp-scan
 
 
 Referências
 1) https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
 2) http://askubuntu.com/questions/7477/how-can-i-add-a-new-user-as-sudoer-using-the-command-line
 3)http://askubuntu.com/questions/325807/arrow-keys-tab-complete-not-working
+4) http://askubuntu.com/questions/335961/create-default-home-directory-for-existing-user-in-terminal
+5) http://askubuntu.com/questions/9540/how-do-i-change-the-computer-name
+
 
